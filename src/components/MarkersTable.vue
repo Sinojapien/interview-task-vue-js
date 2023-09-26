@@ -24,7 +24,8 @@
 </script>
 
 <template>
-    <table class="table border my-4">
+    <p class="text-muted mx-2 mt-1" style="font-size: 0.8rem;">{{  `Total number of records: ${markers.length}`  }}</p>
+    <table class="table border">
         <thead>
             <tr>
                 <th>#</th>

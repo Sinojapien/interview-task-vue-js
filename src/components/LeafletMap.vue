@@ -18,7 +18,9 @@
         // Map Initialization
 
         // Fix leaflet marker on production
-        Leaflet.Icon.Default.mergeOptions({ iconRetinaUrl, iconUrl, shadowUrl });
+        if (process.env.NODE_ENV === "production") {
+            Leaflet.Icon.Default.mergeOptions({ iconRetinaUrl, iconUrl, shadowUrl });
+        }
 
         const map = Leaflet.map("mapContainer").setView(center.value, 13);
         Leaflet.tileLayer(import.meta.env.VITE_MAP_TILE_URL, {

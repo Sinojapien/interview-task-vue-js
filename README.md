@@ -1,7 +1,5 @@
 # interview-task-vue-js
 
-This template should help get you started developing with Vue 3 in Vite.
-
 ## Dependencies
 
 -   [pinia](https://pinia.vuejs.org/)
@@ -10,6 +8,12 @@ This template should help get you started developing with Vue 3 in Vite.
 -   [tz-lookup](https://www.npmjs.com/package/tz-lookup)
 -   [moment-timezone](https://momentjs.com/timezone/)
 -   [Font Awesome Icons](https://fontawesome.com/icons)
+
+## APIs
+
+-   [OpenStreetMap](https://www.openstreetmap.org/)
+-   [Geocoding](https://geocode.maps.co/)
+-   [bootstrap](https://getbootstrap.com/)
 
 ## Project Setup
 
@@ -23,8 +27,8 @@ npm install
 npm run dev
 ```
 
-### Compile and Minify for Production
+### Compile and Run for Production
 
 ```sh
-npm run build
+bun run build && bun run preview
 ```

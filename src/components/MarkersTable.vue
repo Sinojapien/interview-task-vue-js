@@ -64,7 +64,7 @@
             v-bind:disabled="page <= 0"
             v-on:click="onPreviousPage"
         >
-            <i class="fa fa-angle-left" />
+            <font-awesome-icon :icon="['fas', 'angle-left']" />
         </button>
         <span>{{ page + 1 }}</span>
         <button
@@ -73,7 +73,7 @@
             v-bind:disabled="markers.length < (page + 1) * perPage + 1"
             v-on:click="onNextPage"
         >
-            <i class="fa fa-angle-right" />
+            <font-awesome-icon :icon="['fas', 'angle-right']" />
         </button>
         <div class="ms-auto" />
         <button
@@ -82,7 +82,7 @@
             v-bind:disabled="!hasSelectedIndexes"
             v-on:click="deleteSelectedIndexes"
         >
-            <i class="fa fa-trash" />
+            <font-awesome-icon :icon="['fas', 'trash']" />
         </button>
     </div>
 </template>

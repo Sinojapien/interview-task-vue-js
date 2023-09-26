@@ -113,7 +113,7 @@
                                         v-bind:disabled="loading"
                                         v-on:click="onGetCurrentLocation"
                                     >
-                                        <i class="fa fa-map-marker" />
+                                        <font-awesome-icon :icon="['fas', 'map-marker']" />
                                     </button>
                                 </div>
                             </div>

@@ -13,7 +13,6 @@
 
 -   [OpenStreetMap](https://www.openstreetmap.org/)
 -   [Geocoding](https://geocode.maps.co/)
--   [bootstrap](https://getbootstrap.com/)
 
 ## Project Setup
 

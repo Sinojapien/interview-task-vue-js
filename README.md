@@ -29,5 +29,5 @@ npm run dev
 ### Compile and Run for Production
 
 ```sh
-bun run build && bun run preview
+npm run build && npm run preview
 ```
